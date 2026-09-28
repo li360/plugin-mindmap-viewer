@@ -1,7 +1,7 @@
 {
   "id": "plugin-mindmap-viewer",
   "name": "思维导图查看器",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "将 Markdown 标题/缩进列表渲染为思维导图，支持缩放平移与源码对照",
   "author": "li360",
   "icon": "🧠",
@@ -13,3 +13,4 @@
   "emits": [],
   "handles": ["file:open"]
 }
+

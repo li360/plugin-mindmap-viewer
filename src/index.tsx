@@ -9,7 +9,7 @@
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import type { PluginContext, PluginManifest, RoutedPayload } from "plugin-protocol"
-import { createMultiInstanceFilter } from "plugin-protocol"
+import { createMultiInstanceFilter } from "./multiInstance"
 import { parseMindmap } from "./parser"
 import { layoutMindmap, fitLabel } from "./layout"
 import type { LaidNode } from "./layout"
